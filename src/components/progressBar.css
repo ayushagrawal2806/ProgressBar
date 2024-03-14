@@ -1,0 +1,49 @@
+
+
+.progressbar{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.progressbar h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.bar{
+    
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    margin-bottom: 0.5rem;
+}
+
+.bar .color{
+    width: 0%;
+    height: 20px;
+    background-color: rgb(5, 212, 5); 
+}
+
+
+.bar p{
+    position: absolute;
+    top: 0%;
+    left: 47%;
+    font-size: 1.1rem;
+    align-items: center;
+}
+
+
+
+@media (max-width : 600px) {
+    .progressbar{
+        width: 90%;
+    }
+
+    .bar p{
+        left: 45%;
+    }
+}
